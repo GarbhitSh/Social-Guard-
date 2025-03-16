@@ -52,7 +52,7 @@ for i,j in zip(video_Link,video_titles):
     st.write("**************************************")
     if(content==None):
         Finalaclist.append('Yellow')
-        st.wrrit("Yellow")
+        st.write("Yellow")
         continue
     st.write("Video Content")
     st.write(content)
@@ -62,7 +62,7 @@ for i,j in zip(video_Link,video_titles):
     ns=nx.get_news_list(query)
     if(ns==[]):
         Finalaclist.append('Yellow')
-        st.wrrit("Yellow")
+        st.write("Yellow")
         continue
 
     newssum=sumz.sumup(ns)
