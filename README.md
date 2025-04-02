@@ -37,3 +37,7 @@ Comprehensive Content Detection: The system integrates multiple monitoring layer
 Ethical AI and Data Privacy: The system places a strong emphasis on user privacy, utilizing encryption and anonymization techniques, and adhering to ethical AI standards.
 
 Scalability: Social Guard’s modular architecture allows it to easily scale to new platforms and stay effective against evolving online threats.
+
+
+## Low Level Design
+<img src="lld.png" alt="LLD" />
